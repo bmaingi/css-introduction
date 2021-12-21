@@ -1,5 +1,5 @@
 .flex-container{
-    /* display: flex;*/ 
+  display: flex; 
 }
 /* this selector selects all divs inside of .flex-container */
 
