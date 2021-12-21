@@ -10,7 +10,15 @@
 .flex-container div {
     background: peachpuff;
     border: 4px solid salmon;
-    height: 48px;
+    height: 100px;
+    width: 260px;
     padding: 4px;
-    flex: 1;
+    flex:1 1 auto;
+}
+
+/*only div.two is selected here */
+.flex-container .two {
+    flex: 2 1 0%;
+    flex-shrink: 0;
+    
 }
